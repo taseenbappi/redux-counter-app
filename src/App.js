@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Counter from './components/Counter/Counter';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome Redux Counter App</h1>
+
+      <Counter></Counter>
     </div>
   );
 }
